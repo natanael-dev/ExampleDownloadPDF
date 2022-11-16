@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		425DFFCBAC6BF10D5BA9F051 /* Pods_DownloadPDF.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B73588B7E6464409C7DCA4F4 /* Pods_DownloadPDF.framework */; };
+		A28F5B6E2916C375007F00D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A28F5B6D2916C375007F00D3 /* AppDelegate.swift */; };
+		A28F5B702916C375007F00D3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A28F5B6F2916C375007F00D3 /* SceneDelegate.swift */; };
+		A28F5B722916C375007F00D3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A28F5B712916C375007F00D3 /* ViewController.swift */; };
+		A28F5B752916C375007F00D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A28F5B732916C375007F00D3 /* Main.storyboard */; };
+		A28F5B772916C376007F00D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A28F5B762916C376007F00D3 /* Assets.xcassets */; };
+		A28F5B7A2916C376007F00D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A28F5B782916C376007F00D3 /* LaunchScreen.storyboard */; };
+		A28F5B83291703C4007F00D3 /* PDFViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A28F5B81291703C4007F00D3 /* PDFViewController.swift */; };
+		A28F5B84291703C4007F00D3 /* PDFViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A28F5B82291703C4007F00D3 /* PDFViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2879AFBC35050A17215F378C /* Pods-DownloadPDF.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DownloadPDF.debug.xcconfig"; path = "Target Support Files/Pods-DownloadPDF/Pods-DownloadPDF.debug.xcconfig"; sourceTree = "<group>"; };
+		A28F5B6A2916C375007F00D3 /* DownloadPDF.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DownloadPDF.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A28F5B6D2916C375007F00D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A28F5B6F2916C375007F00D3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A28F5B712916C375007F00D3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A28F5B742916C375007F00D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A28F5B762916C376007F00D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A28F5B792916C376007F00D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A28F5B7B2916C376007F00D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A28F5B81291703C4007F00D3 /* PDFViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFViewController.swift; sourceTree = "<group>"; };
+		A28F5B82291703C4007F00D3 /* PDFViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PDFViewController.xib; sourceTree = "<group>"; };
+		B73588B7E6464409C7DCA4F4 /* Pods_DownloadPDF.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DownloadPDF.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF35E2514BE9BDC991A79598 /* Pods-DownloadPDF.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DownloadPDF.release.xcconfig"; path = "Target Support Files/Pods-DownloadPDF/Pods-DownloadPDF.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A28F5B672916C375007F00D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				425DFFCBAC6BF10D5BA9F051 /* Pods_DownloadPDF.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8D82F9528468757DE17AD20F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B73588B7E6464409C7DCA4F4 /* Pods_DownloadPDF.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		947DE9CA02C73C81E0CC5AA8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2879AFBC35050A17215F378C /* Pods-DownloadPDF.debug.xcconfig */,
+				CF35E2514BE9BDC991A79598 /* Pods-DownloadPDF.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A28F5B612916C375007F00D3 = {
+			isa = PBXGroup;
+			children = (
+				A28F5B6C2916C375007F00D3 /* DownloadPDF */,
+				A28F5B6B2916C375007F00D3 /* Products */,
+				947DE9CA02C73C81E0CC5AA8 /* Pods */,
+				8D82F9528468757DE17AD20F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A28F5B6B2916C375007F00D3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A28F5B6A2916C375007F00D3 /* DownloadPDF.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A28F5B6C2916C375007F00D3 /* DownloadPDF */ = {
+			isa = PBXGroup;
+			children = (
+				A28F5B6D2916C375007F00D3 /* AppDelegate.swift */,
+				A28F5B6F2916C375007F00D3 /* SceneDelegate.swift */,
+				A28F5B712916C375007F00D3 /* ViewController.swift */,
+				A28F5B732916C375007F00D3 /* Main.storyboard */,
+				A28F5B762916C376007F00D3 /* Assets.xcassets */,
+				A28F5B782916C376007F00D3 /* LaunchScreen.storyboard */,
+				A28F5B7B2916C376007F00D3 /* Info.plist */,
+				A28F5B81291703C4007F00D3 /* PDFViewController.swift */,
+				A28F5B82291703C4007F00D3 /* PDFViewController.xib */,
+			);
+			path = DownloadPDF;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A28F5B692916C375007F00D3 /* DownloadPDF */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A28F5B7E2916C376007F00D3 /* Build configuration list for PBXNativeTarget "DownloadPDF" */;
+			buildPhases = (
+				C7D5DC70C7C0F91BD12D2BBA /* [CP] Check Pods Manifest.lock */,
+				A28F5B662916C375007F00D3 /* Sources */,
+				A28F5B672916C375007F00D3 /* Frameworks */,
+				A28F5B682916C375007F00D3 /* Resources */,
+				975AA1D75D0C5C2E8B394A94 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DownloadPDF;
+			productName = DownloadPDF;
+			productReference = A28F5B6A2916C375007F00D3 /* DownloadPDF.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A28F5B622916C375007F00D3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					A28F5B692916C375007F00D3 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = A28F5B652916C375007F00D3 /* Build configuration list for PBXProject "DownloadPDF" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A28F5B612916C375007F00D3;
+			productRefGroup = A28F5B6B2916C375007F00D3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A28F5B692916C375007F00D3 /* DownloadPDF */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A28F5B682916C375007F00D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A28F5B7A2916C376007F00D3 /* LaunchScreen.storyboard in Resources */,
+				A28F5B772916C376007F00D3 /* Assets.xcassets in Resources */,
+				A28F5B752916C375007F00D3 /* Main.storyboard in Resources */,
+				A28F5B84291703C4007F00D3 /* PDFViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		975AA1D75D0C5C2E8B394A94 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DownloadPDF/Pods-DownloadPDF-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DownloadPDF/Pods-DownloadPDF-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DownloadPDF/Pods-DownloadPDF-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C7D5DC70C7C0F91BD12D2BBA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DownloadPDF-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A28F5B662916C375007F00D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A28F5B722916C375007F00D3 /* ViewController.swift in Sources */,
+				A28F5B6E2916C375007F00D3 /* AppDelegate.swift in Sources */,
+				A28F5B702916C375007F00D3 /* SceneDelegate.swift in Sources */,
+				A28F5B83291703C4007F00D3 /* PDFViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A28F5B732916C375007F00D3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A28F5B742916C375007F00D3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A28F5B782916C376007F00D3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A28F5B792916C376007F00D3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A28F5B7C2916C376007F00D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A28F5B7D2916C376007F00D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A28F5B7F2916C376007F00D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2879AFBC35050A17215F378C /* Pods-DownloadPDF.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7XF4SXN2RG;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DownloadPDF/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.natanael.dev.DownloadPDF;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A28F5B802916C376007F00D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF35E2514BE9BDC991A79598 /* Pods-DownloadPDF.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7XF4SXN2RG;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DownloadPDF/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.natanael.dev.DownloadPDF;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A28F5B652916C375007F00D3 /* Build configuration list for PBXProject "DownloadPDF" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A28F5B7C2916C376007F00D3 /* Debug */,
+				A28F5B7D2916C376007F00D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A28F5B7E2916C376007F00D3 /* Build configuration list for PBXNativeTarget "DownloadPDF" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A28F5B7F2916C376007F00D3 /* Debug */,
+				A28F5B802916C376007F00D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A28F5B622916C375007F00D3 /* Project object */;
+}
